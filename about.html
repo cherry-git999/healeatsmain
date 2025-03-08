@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aegion Tech Community website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="images/logow.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+             <ul>
+            <li> <a href="">HOME</a></li>          
+            <li> <a href="">COURSE</a></li>
+            <li> <a href="">ABOUT</a></li>
+            <li> <a href="">BLOG</a></li>
+            <li> <a href="">CONTACT</a></li>
+         </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+       <h1>About Us</h1>
+
+    </section>
+
+ <!--------about us content---->
+     <section class="about-us">
+      <div class="row">
+         <div class="about-col">
+          <h1> we are worlds largest tech community</h1>
+          <P> Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Recusandae, illo delectus exercitationem minima ipsa consectetur dolores? 
+            Quae error quia adipisci vitae dolores sed voluptas laudantium veniam, 
+            nemo quisquam recusandae qui.</P>
+            <a href="" class="hero-btn red-btn"> EXPLORE NOW</a>
+         </div>
+         <div class="about-col">
+          <img src="about.jpg">
+         </div>
+      </div>
+    
+
+
+
+
+
+     </section> 
+ <!----Footer-->
+ <section class="footer">
+   <h4> About Us </h4>
+   <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+    Qui quasi consequatur ex nam optio, quam accusantium vero laborum. <br>
+    In quod corrupti assumenda rerum! Repellendus consequuntur nam, 
+    architecto unde quae rem? </p>
+    <div class="icons">
+      <i class="fab fa-discord"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="far fa-heart"></i> by Cherry</p>    
+ </section>
+
+
+
+  <!-----------chinna Java script chesa for open close buttons in phone layout mode----------->
+  <script>
+
+       var navlinks = document.getElementById("navlinks");
+
+       function showmenu(){
+        navlinks.style.right = "0";
+       }
+       function hidemenu(){
+        navlinks.style.right = "-200px";
+       }
+
+  </script>
+
+</body>
+</html>

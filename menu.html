@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEALEATS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="HealEats.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+             <ul>
+            <li> <a href="index.html">HOME</a></li>          
+            <li> <a href="course.html">REWARDS</a></li>
+            <li> <a href="menu.html">MENU</a></li>
+            <li> <a href="signup.html">LOGIN / SIGN UP</a></li>
+         </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1><span class="mg"> "Fuel Your Appetite"</a></span> <br>
+    </section>
+    
+<!----Menu----->
+<section class="factors">
+    <h1> Our Menu</h1>
+    <p>Healthy, Delicious, and Affordable Meals</p>
+    
+     <div class="row">>
+      <div class="factors-col">
+      <img src="me1.png">
+      <div class="layer"> 
+        <h3>MASALA POHA</h3>
+           </div>
+      </div>
+      <div class="factors-col">
+        <img src="me2.png">
+        <div class="layer"> 
+          <h3>MILLET KICHIDI</h3>
+             </div>
+        </div>
+    
+        <div class="factors-col">
+          <img src="me3.png">
+          <div class="layer"> 
+            <h3>MOONG DAL PARATHA </h3>
+               </div>
+          </div>
+     </div>
+    
+     </section>
+    
+
+ <!----Footer-->
+ <section class="footer">
+  <h4> About Us </h4>
+  <p>
+   "A Healthy food stall not what you think but along with taste, affordability, 
+   accessibility to feed your body and fuel your brain!" </p>
+   <div class="icons">  <!--should add inks to the icons do this in all pages-->
+     <i class="fab fa-discord"></i> 
+     <i class="fab fa-twitter"></i>
+     <i class="fab fa-instagram"></i>
+     <i class="fab fa-linkedin"></i>
+   </div>   
+   <p style="font-size: 20px; font-weight: bold;">HealEats<sup style="font-size: 12px;">™</sup></p>
+
+</section>
+
+
+
+
+  <!-----------chinna Java script chesa for open close buttons in phone layout mode----------->
+  <script>
+
+       var navlinks = document.getElementById("navlinks");
+
+       function showmenu(){
+        navlinks.style.right = "0";
+       }
+       function hidemenu(){
+        navlinks.style.right = "-200px";
+       }
+
+  </script>
+
+</body>
+</html>
